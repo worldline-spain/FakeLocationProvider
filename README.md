@@ -1,5 +1,7 @@
 # LOCATION GENERATOR
 
+[![Build Status](https://travis-ci.org/worldline-spain/FakeLocationProvider.svg?branch=master)](https://travis-ci.org/worldline-spain/FakeLocationProvider)
+
 [![Download](https://api.bintray.com/packages/worldline-spain/maven/locationprovider/images/download.svg) ](https://bintray.com/worldline-spain/maven/locationprovider/_latestVersion)
 
 This library provides a random `Location` to be used in Android applications.
