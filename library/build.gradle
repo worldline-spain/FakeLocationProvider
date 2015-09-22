@@ -1,4 +1,14 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.novoda:bintray-release:0.3.4'
+    }
+}
 
 android {
     compileSdkVersion 23
@@ -25,4 +35,13 @@ android {
 
 dependencies {
     testCompile 'junit:junit:4.12'
+}
+
+publish {
+    userOrg = 'worldline-spain'
+    groupId = 'com.worldline'
+    artifactId = 'locationprovider'
+    publishVersion = '0.1.0'
+    desc = 'This library provides a random `Location` to be used in Android applications.'
+    website = 'https://github.com/worldline-spain/FakeLocationProvider'
 }
