@@ -21,6 +21,24 @@ location.setLongitude(3);
 
 But you must do this across all app, or create a Helper class for it.
 
+## DOWNLOAD ##
+
+Get latest [`aar`](https://github.com/worldline-spain/FakeLocationProvider/releases/tag/v.0.1.0)
+
+Grab via gradle:
+
+``` groovy
+compile 'com.worldline:locationprovider:0.1.0'
+```
+
+Grab via maven:
+
+``` xml
+<groupId>com.worldline</groupId>
+<artifactId>locationprovider</artifactId>
+<version>0.1.0</version>
+```
+
 ## USAGE ##
 
 Library provides two helper classes for generate `Location`s:
